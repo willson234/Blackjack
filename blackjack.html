@@ -1,0 +1,37 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Blackjack</title>
+        </head>
+
+        <body>
+            <h1> Welcome to Blackjack! </h1>
+            <button onclick="buttonClick()"> Start Game! </button>
+            <button onclick="buttonRestart()"> Restart Game! </button>
+           
+            <h2>Your cards:</h2>
+            <div id = "firstDiv" style = "border: 1px solid black;">
+                Your first card will display here.
+            </div>
+
+            <div id = "secondDiv" style = "border: 1px solid black;">
+                Your second card will display here.
+            </div>
+
+            <div id = "thirdDiv" style = "border: 1px solid black;">
+            </div>
+
+            <h2>Current Sum of Cards: </h2> 
+            <div id = "cardSumDiv"> 
+            </div>
+
+            <button onclick="buttonHit()"> Hit! </button>
+            <button onclick="buttonStay()"> Stay! </button>
+
+
+        </body>
+
+        <footer>
+            <script src = "blackjack.js"></script>
+        </footer>
+    </html>
